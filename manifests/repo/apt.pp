@@ -35,7 +35,7 @@ class erlang::repo::apt(
       'src' => false,
     },
     key         => {
-      'id       => $key_signature,
+      'id'      => $key_signature,
       'server'  => $remote_repo_key_location,
     },
     location    => $remote_repo_location,
